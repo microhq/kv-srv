@@ -33,4 +33,8 @@ Why is there nothing here? Most of the code exists in go-platform/kv.
 	```shell
 	docker run microhq/kv-srv --registry_address=YOUR_REGISTRY_ADDRESS
 	```
+## API
 
+- Get
+- Put
+- Del
