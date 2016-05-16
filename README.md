@@ -6,6 +6,8 @@ and participates in a consistent hash ring by broadcasting its availability as a
 Why is this here? It's a method of offloading key-value storage to a backend service while keeping it 
 in the realm of Micro services. It's built, deployed and run the same way as everything else.
 
+Why is there nothing here? Most of the code exists in go-platform/kv.
+
 
 ## Getting started
 
