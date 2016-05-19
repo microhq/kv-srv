@@ -35,6 +35,7 @@ Why is there nothing here? Most of the code exists in go-platform/kv.
 	```
 ## API
 
+Store
 - Get
 - Put
 - Del
