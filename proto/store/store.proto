@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package go.micro.srv.kv;
+package go.micro.srv.kv.store;
 
-service KV {
+service Store {
 	rpc Get(GetRequest) returns (GetResponse) {}
 	rpc Put(PutRequest) returns (PutResponse) {}
 	rpc Del(DelRequest) returns (DelResponse) {}
