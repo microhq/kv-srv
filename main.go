@@ -32,7 +32,6 @@ func main() {
 			opts := []kv.Option{
 				kv.Client(service.Client()),
 				kv.Server(service.Server()),
-				kv.Internal(false),
 			}
 
 			if len(c.String("namespace")) > 0 {
