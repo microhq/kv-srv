@@ -6,7 +6,7 @@ import (
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/server"
-	"github.com/micro/go-platform/kv"
+	"github.com/micro/go-os/kv"
 	"github.com/micro/kv-srv/handler"
 	proto "github.com/micro/kv-srv/proto/store"
 

@@ -1,12 +1,12 @@
 # KV Service
 
-KV service is a microservice that serves as a key-value store using gossip. It leverages go-platform/kv 
+KV service is a microservice that serves as a key-value store using gossip. It leverages go-os/kv 
 and participates in a consistent hash ring by broadcasting its availability as a server. 
 
 Why is this here? It's a method of offloading key-value storage to a backend service while keeping it 
 in the realm of Micro services. It's built, deployed and run the same way as everything else.
 
-Why is there nothing here? Most of the code exists in go-platform/kv.
+Why is there nothing here? Most of the code exists in go-os/kv.
 
 
 ## Getting started
